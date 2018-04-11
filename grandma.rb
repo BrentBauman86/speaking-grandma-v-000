@@ -1,4 +1,4 @@
-phrase = " "
+phrase = "I LOVE YOU TOO PUMPKIN!"
 def speak_to_grandma(phrase)
 
   if phrase != phrase.uppercase
@@ -6,6 +6,6 @@ def speak_to_grandma(phrase)
   elsif phrase == phrase.uppercase
     puts "NO, NOT SINCE 1938!"
   else phrase == "I LOVE YOU GRANDMA!"
-    "I LOVE YOU TOO PUMPKIN!"
+    puts "#{phrase}"
 end
 end
