@@ -1,11 +1,10 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(phrase = " ")
-  if phrase != phrase.uppercase
+  if speak_to_grandma != phrase.uppercase
     puts "HUH?! SPEAK UP, SONNY!"
 end
 end
 
-speak_to_grandma
 
 
 # If you shout, she can hear you (or at least she thinks so)
