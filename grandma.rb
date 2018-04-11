@@ -8,6 +8,7 @@ else phrase == "I LOVE YOU GRANDMA!"
   puts "#{I LOVE YOU TOO PUMPKIN!}"
 end
 end
+end
 # If you shout, she can hear you (or at least she thinks so)
 # and yells back
 
