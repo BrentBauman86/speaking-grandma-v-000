@@ -1,5 +1,7 @@
-
+require "pry"
+binding.pry
 def speak_to_grandma(phrase = " ")
+
   if phrase != phrase.uppercase
     puts "HUH?! SPEAK UP, SONNY!"
   elsif phrase == phrase.uppercase
@@ -8,5 +10,3 @@ def speak_to_grandma(phrase = " ")
     "I LOVE YOU TOO PUMPKIN!"
 end
 end
-
-speak_to_grandma(phrase)
