@@ -1,6 +1,6 @@
 
 def speak_to_grandma(phrase = " ")
-  if phrase != phrase.uppercase
+  if phrase != speak_to_grandma.uppercase
      "HUH?! SPEAK UP SONNY!"
   elsif phrase == phrase.uppercase
      "NO, NOT SINCE 1938!"
