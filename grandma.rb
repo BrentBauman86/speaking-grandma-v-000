@@ -1,9 +1,9 @@
-# Write a speak_to_grandma method.
-def speak_to_grandma(phrase = " ")
+phrase = " "# Write a speak_to_grandma method.
+def speak_to_grandma(phrase)
   if phrase != phrase.uppercase
     "HUH?! SPEAK UP, SONNY!"
 elsif phrase == phrase.uppercase
-  puts "NO, NOT SINCE 1938!"
+  "NO, NOT SINCE 1938!"
 else phrase == "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU TOO PUMPKIN!"
 end
